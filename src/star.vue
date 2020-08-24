@@ -1,5 +1,5 @@
 <template>
-    <svg class="vue-star-rating-star" :height="getSize" :width="getSize" :viewBox="viewBox" @mousemove="mouseMoving" @click="selected">
+    <svg class="vue-star-rating-star" :height="getSize" :width="getSize" :viewBox="viewBox" @click="selected">
 
         <linearGradient :id="grad" x1="0" x2="100%" y1="0" y2="0">
             <stop :offset="getFill" :stop-color="(rtl) ? inactiveColor : activeColor" />
